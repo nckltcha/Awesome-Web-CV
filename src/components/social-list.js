@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Social from './social';
 
 class SocialList extends Component {
+
   renderSocial(social) {
     return (
       <Social
         key={social.type}
         type={social.type}
         text={social.text}
-        url={social.url} />
+        url={social.url}/>
     );
   }
 

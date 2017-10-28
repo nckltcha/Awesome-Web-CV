@@ -1,5 +1,6 @@
 import _ from 'lodash';
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 import ItemList from './item-list';
 
@@ -16,13 +17,12 @@ class Section extends Component {
     ) : (
       <h1 className="section-title">title</h1>
     );
-
   }
 
   renderDescription() {
     const description = this.props.description;
 
-    if (description != null)
+    if (description !== null)
       return (
         <p className="section-description">{description}</p>
       );
@@ -32,9 +32,9 @@ class Section extends Component {
     const items = this.props.items;
     const type = this.props.type;
 
-    if (items != null)
+    if (items !== null)
       return (
-        <ItemList type={type} items={items} />
+        <ItemList type={type} items={items}/>
       );
   }
 
@@ -52,10 +52,10 @@ class Section extends Component {
 }
 
 Section.protoTypes = {
-  title: React.PropTypes.string.isRequired,
-  description: React.PropTypes.string,
-  type: React.PropTypes.string,
-  items: React.PropTypes.array
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  type: PropTypes.string,
+  items: PropTypes.array
 };
 
 export default Section;

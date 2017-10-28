@@ -94,4 +94,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.idea/
+dist/
+package-lock.json
 # End of https://www.gitignore.io/api/node,vim,osx

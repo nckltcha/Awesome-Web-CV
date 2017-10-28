@@ -1,6 +1,12 @@
+@import "font-awesome/font-awesome";
+@import "/css/normalize.css";
+@import "/css/fonts.css";
+
+@import "variables";
 @import "general";
 @import "layout";
-
 @import "header";
 @import "footer";
 @import "content";
+@import "Card";
+@import "Score";

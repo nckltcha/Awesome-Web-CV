@@ -1,24 +1,20 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Section from './section';
 
 export default class SectionList extends Component {
-  renderSection(section) {
-    return (
-      <Section
-        key={section.title}
-        title={section.title}
-        description={section.description}
-        type={section.type}
-        items={section.items} />
-    );
-  }
-
   render() {
-    const sections = this.props.sections || [];
+    const sections = Array.isArray(this.props.sections) ? this.props.sections : [];
 
     return (
       <div className="sections">
-        {sections.map(this.renderSection)}
+        {sections.map((section, index) =>
+          <Section
+            key={index}
+            title={section.title}
+            description={section.description}
+            type={section.type}
+            items={section.items}/>
+        )}
       </div>
     );
   }

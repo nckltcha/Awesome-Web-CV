@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Contact from './contact';
 
 class ContactList extends Component {
-  renderContact(contact) {
+  renderContact(contact, index) {
     return (
-      <Contact
-        key={contact.type}
-        type={contact.type}
-        text={contact.text}
-        url={contact.url} />
+      <li key={index} className={"Contacts--item"}>
+        <Contact value={contact}/>
+      </li>
     );
   }
 
@@ -16,7 +14,7 @@ class ContactList extends Component {
     const contacts = this.props.contacts || [];
 
     return (
-      <ul className="contacts">
+      <ul className="Contacts">
         {contacts.map(this.renderContact)}
       </ul>
     );

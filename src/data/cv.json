@@ -1,0 +1,408 @@
+{
+  "personalInfo": {
+    "firstName": "Tigran",
+    "lastName": "Tchougourian",
+    "position": "Development Engineer",
+    "quote": "The nice thing about teamwork is that you always have others on your side",
+    "photo": "/dist/public/picture.png",
+    "contacts": [
+      {
+        "type": "phone",
+        "text": "+41 (0)78 964 05 87"
+      },
+      {
+        "type": "home",
+        "text": "Lausannne, Switzerland"
+      },
+      {
+        "type": "birth-date",
+        "year": "1987",
+        "month": "4",
+        "day": "16"
+      },
+      {
+        "type": "nationality",
+        "text": "french"
+      },
+      {
+        "type": "work-permit",
+        "text": "Permit B"
+      },
+      {
+        "type": "car-permit",
+        "text": "Yes"
+      }
+    ],
+    "socials": [
+      {
+        "type": "homepage",
+        "text": "NargiT",
+        "url": "https://nargit.fr"
+      },
+      {
+        "type": "github",
+        "text": "NargiT",
+        "url": "https://github.com/nargit"
+      },
+      {
+        "type": "twitter",
+        "text": "lenargit",
+        "url": "https://twitter.com/lenargit"
+      },
+      {
+        "type": "bitbucket",
+        "text": "NargiT00",
+        "url": "https://bitbucket.org/NargiT00"
+      },
+      {
+        "type": "linkedin",
+        "text": "Nargit",
+        "url": "https://www.linkedin.com/in/nargit"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Summary",
+      "description": [
+        "Passionate about computers since I was 6 year old, I wrote my first website using only HTML. ",
+        "Not very happy with HTML due to its repetitive nature, I bought a book about PHP and MySQL and wrote my first dynamic web site. ",
+        "Later I discovered CSS and Javascript, and when the time came to decide what university path I would take, the choice was naturally computer sciences. ",
+        "Today my curiosity and eagerness for learning drives my work, and challenges me to build better solutions for each project."
+      ]
+    },
+    {
+      "title": "Work Experience",
+      "type": "detail",
+      "items": [
+        {
+          "title": "Software Architect (Senior Officer)",
+          "organization": "Swissquote Bank SA",
+          "location": "Gland, Switzerland",
+          "date": "July 2017 - Present",
+          "descriptions": [
+            "Architecture, migration and development of an existing system based on asynchronous messaging",
+            "Expert member of the internal group to promote backend best practices and drive technology stack of the bank",
+            "Development of a internal tool for easy documentation",
+            "Responsible for technical backlog of the team",
+            "Scrum methodology"
+          ],
+          "stack": "Java 8, Hibernate, Jersey, REST APIs, React.js, HTML, SaSS, RabbitMQ"
+        },
+        {
+          "title": "Lead Development Engineer (Authorized Officer)",
+          "organization": "Swissquote Bank SA",
+          "location": "Gland, Switzerland",
+          "date": "January 2015 - June 2017",
+          "descriptions": [
+            "Migration from a monolithic architecture to a micro services architecture",
+            "Migration to a new database model",
+            "Migration to a new authentication service",
+            "Responsible for technical backlog of the team",
+            "Active participation to an internal group to promote best practices and engineering guidelines",
+            "Scrum methodology"
+          ],
+          "stack": "Java 8, Hibernate, Jersey, REST APIs, React.js, HTML, SaSS, JMS"
+        },
+        {
+          "title": "Development Engineer",
+          "organization": "Swissquote Bank SA",
+          "location": "Gland, Switzerland",
+          "date": "Mars 2013 - December 2015",
+          "descriptions": [
+            "Development of new functionality both backend and front end parts",
+            "Evolution and maintenance of existing application (functional, technical and bug fixes)",
+            "Scrum methodology"
+          ],
+          "stack": "Java 7, Hibernate, Stripes, Javascript, HTML, CSS, jQuery, JMS"
+        },
+        {
+          "title": "Junior developer",
+          "organization": "STMicroelectronics",
+          "location": "Grenoble, France",
+          "date": "September 2011 - June 2012",
+          "descriptions": [
+            "Analysing needs, design, develop and test the desktop application",
+            "Analysing risk, taking care of quality and respect deadlines.",
+            "Iterative-driven development."
+          ],
+          "stack": "C# .NET 2.0",
+          "reference": "Raphaël Brunel"
+        },
+        {
+          "title": "Junior developer",
+          "organization": "Orange Business Services",
+          "location": "Grenoble, France",
+          "date": "February 2011 - July 2012",
+          "descriptions": [
+            "Designing and developing a web application",
+            "Iterative-driven development."
+          ],
+          "stack": "JEE, Flex, Hiberante",
+          "reference": "Didier Dumas"
+        },
+        {
+          "title": "Junior developer",
+          "organization": "nodule.com (renamed to labonneagence.com)",
+          "location": "Grenoble, France",
+          "date": "February 2011 - July 2012",
+          "descriptions": [
+            "Developing a web application",
+            "Waterfall driven development"
+          ],
+          "reference": "Didier Dumas"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "type": "score",
+      "items": [
+        {
+          "type": "language",
+          "title": "Languages",
+          "items": [
+            {
+              "text": "French",
+              "level": 4
+            },
+            {
+              "text": "English",
+              "level": 4
+            },
+            {
+              "text": "Russian",
+              "level": 3
+            },
+            {
+              "text": "Armenian",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "type": "pro-language",
+          "title": "Programing",
+          "items": [
+            {
+              "text": "Java",
+              "level": 3
+            },
+            {
+              "text": "Javascript",
+              "level": 2
+            },
+            {
+              "text": "Python",
+              "level": 1
+            },
+            {
+              "text": "SQL",
+              "level": 3
+            },
+            {
+              "text": "HTML",
+              "level": 2
+            },
+            {
+              "text": "CSS",
+              "level": 2
+            },
+            {
+              "text": "Perl",
+              "level": 2
+            },
+            {
+              "text": "C#",
+              "level": 1
+            },
+            {
+              "text": "C",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "framework",
+          "title": "Frameworks",
+          "items": [
+            {
+              "text": "Spring",
+              "level": 3
+            },
+            {
+              "text": "Hibernate",
+              "level": 3
+            },
+            {
+              "text": "Jersey",
+              "level": 2
+            },
+            {
+              "text": "JUnit",
+              "level": 3
+            },
+            {
+              "text": "QueryDSL",
+              "level": 1
+            },
+            {
+              "text": "ReactJS",
+              "level": 2
+            },
+            {
+              "text": ".NET",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "build",
+          "title": "Build Ecosystem",
+          "items": [
+            {
+              "text": "WebPack",
+              "level": 2
+            },
+            {
+              "text": "Jenkins",
+              "level": 3
+            },
+            {
+              "text": "npm",
+              "level": 3
+            },
+            {
+              "text": "Maven",
+              "level": 4
+            }
+          ]
+        },
+        {
+          "type": "misc",
+          "title": "Other",
+          "items": [
+            {
+              "text": "Docker",
+              "level": 3
+            },
+            {
+              "text": "Kubernetes",
+              "level": 1
+            },
+            {
+              "text": "GNU/Linux",
+              "level": 3
+            },
+            {
+              "text": "Windows",
+              "level": 3
+            },
+            {
+              "text": "Mac OSX",
+              "level": 3
+            },
+            {
+              "text": "Intellij",
+              "level": 4
+            },
+            {
+              "text": "Jira",
+              "level": 3
+            },
+            {
+              "text": "Confluence",
+              "level": 3
+            },
+            {
+              "text": "REST",
+              "level": 3
+            },
+            {
+              "text": "Mercurial",
+              "level": 4
+            },
+            {
+              "text": "Git",
+              "level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "type": "detail",
+      "items": [
+        {
+          "title": "Master2 in Computer Science",
+          "organization": "Université Grenoble Alpes",
+          "location": "Grenoble, France",
+          "date": "2012",
+          "descriptions": [
+            "Sandwich-Course specialized in Software Engineering"
+          ],
+          "url": "https://im2ag.univ-grenoble-alpes.fr/parcours-genie-informatique-classique-ou-alternance-2e-annee/master-informatique-parcours-genie-informatique-classique-ou-alternance-2e-annee-111087.kjsp"
+        },
+        {
+          "title": "Master1 in Science of Informatics",
+          "organization": "Université Grenoble Alpes",
+          "location": "Grenoble, France",
+          "date": "2011",
+          "descriptions": [
+            "Courses in collaboration with the Engineering school Grenoble INP",
+            "English-language track"
+          ],
+          "url": "https://im2ag.univ-grenoble-alpes.fr/parcours-master-of-science-in-informatics-at-grenoble-mosig-/"
+        },
+        {
+          "title": "Bachelor in Computer Science",
+          "organization": "Technical University of Denmark",
+          "location": "Copenhagen, Denmark",
+          "date": "2010",
+          "descriptions": [
+            "Erasmus exchange program"
+          ],
+          "url": "http://www.dtu.dk/english"
+        },
+        {
+          "title": "DUT in Computer Science",
+          "organization": "Université Grenoble Alpes",
+          "location": "Grenoble, France",
+          "date": "2008",
+          "descriptions": [
+            "Two-years technical degree"
+          ],
+          "url": "https://iut2.univ-grenoble-alpes.fr/about-iut2/computer-science/computer-science-226088.kjsp?RH=1553078192817470"
+        }
+      ]
+    },
+    {
+      "title": "Interests",
+      "type": "basic",
+      "items": [
+        {
+          "title": "Hackatons",
+          "organization": "Winner of internal Swissquote annual contest 2017"
+        },
+        {
+          "title": "Blogger",
+          "organization": "\"Microservices can help you manage legacy code\" for Swissquote Engineering Blog",
+          "url": "https://medium.com/swissquote-engineering/https-medium-com-nargit-microservices-can-help-you-manage-legacy-code-20edf9bb80f8"
+        },
+        {
+          "title": "Travelling",
+          "organization": "Took four months of unpaid leave with my wife to travel around the world"
+        },
+        {
+          "title": "Team based competitive games",
+          "organization": "Rocket League, CS:GO, Basketball"
+        },
+        {
+          "title": "Books, Cinema and Boardgames",
+          "organization": "Science fiction and Heroic Fantasy"
+        }
+      ]
+    }
+  ]
+}

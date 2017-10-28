@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import SimpleItem from './simple-item';
 import DetailItem from './detail-item';
-import GithubItem from './github-item';
+import BasicItem from './BasicItem';
+import Card from './Card';
 
 export default class ItemList extends Component {
   constructor(...args) {
@@ -10,37 +11,46 @@ export default class ItemList extends Component {
     this.renderItem = this.renderItem.bind(this);
   }
 
-  renderItem(item) {
+  renderItem(item, index) {
+
+    let result = null;
+
     switch (this.props.type) {
-    case 'simple':
-      return (
-        <SimpleItem
+      case 'simple':
+        result = <SimpleItem
           title={item.title}
           organization={item.organization}
           location={item.location}
-          date={item.date} />
-      );
-    case 'detail':
-      return (
-        <DetailItem
+          date={item.date}/>;
+        break;
+      case 'detail':
+        result = <DetailItem
           title={item.title}
           organization={item.organization}
           location={item.location}
           date={item.date}
-          descriptions={item.descriptions} />
-      );
-    case 'github':
-      return (
-        <GithubItem
-          repository={item.repository}
+          descriptions={item.descriptions}/>;
+        break;
+      case 'score':
+        result = <Card title={item.title} items={item.items} type={item.type}/>;
+        break;
+      case 'basic':
+        result = <BasicItem
           title={item.title}
-          description={item.description} />
-      );
+          organization={item.organization}
+          url={item.url}
+        />;
     }
+
+    return (
+      <div key={index}>
+        {result}
+      </div>
+    );
+
   }
 
   render() {
-    const type = this.props.type;
     const items = this.props.items || [];
 
     return (

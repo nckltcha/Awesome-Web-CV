@@ -1,42 +1,20 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React, {Component} from 'react';
 
 import Header from './header';
 import Content from './content';
-
+import data from '../data/cv.json';
 
 class App extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
-
-    this.state = {
-      data: {},
-      config: {}
-    }
-
-    this.fetchData();
-    this.fetchConfig();
-  }
-
-  fetchData() {
-    const url = '/cv.json';
-    axios.get(url).then(({data}) => {
-      this.setState({data});
-    });
-  }
-
-  fetchConfig() {
-    const url = '/config.json';
-    axios.get(url).then(({data}) => {
-      this.setState({config: data});
-    });
+    this.state = data;
   }
 
   render() {
     return (
       <div className="app">
-        <Header data={this.state.data} />
-        <Content data={this.state.data} config={this.state.config} />
+        <Header data={this.state.personalInfo}/>
+        <Content data={this.state.sections}/>
       </div>
     );
   }
