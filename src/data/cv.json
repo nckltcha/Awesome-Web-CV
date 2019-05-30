@@ -4,7 +4,7 @@
     "lastName": "Tchougourian",
     "position": "Development Engineer",
     "quote": "The nice thing about teamwork is that you always have others on your side",
-    "photo": "/dist/public/picture.png",
+    "photo": "https://en.gravatar.com/userimage/24373915/9184e691f3932d02e7b6753954359a86?size=200",
     "contacts": [
       {
         "type": "phone",
@@ -12,7 +12,7 @@
       },
       {
         "type": "home",
-        "text": "Lausannne, Switzerland"
+        "text": "Epalinges, Switzerland"
       },
       {
         "type": "birth-date",
@@ -35,11 +35,6 @@
     ],
     "socials": [
       {
-        "type": "homepage",
-        "text": "NargiT",
-        "url": "https://nargit.fr"
-      },
-      {
         "type": "github",
         "text": "NargiT",
         "url": "https://github.com/nargit"
@@ -50,9 +45,9 @@
         "url": "https://twitter.com/lenargit"
       },
       {
-        "type": "bitbucket",
-        "text": "NargiT00",
-        "url": "https://bitbucket.org/NargiT00"
+        "type": "medium",
+        "text": "nargit",
+        "url": "https://medium.com/@nargit"
       },
       {
         "type": "linkedin",
@@ -79,7 +74,22 @@
           "title": "Software Architect (Senior Officer)",
           "organization": "Swissquote Bank SA",
           "location": "Gland, Switzerland",
-          "date": "July 2017 - Present",
+          "date": "January 2019 - Present",
+          "descriptions": [
+            "Working for a Site Reliability Engineering Team, our mission is to modernize our IT departement and spread teach DevOps mentality",
+            "Put in a place a CI/CD pipeline to migrate all web based applications from mutualize servlet container(Tomcat) to independant Docker images.",
+            "Make security and automation first citizen of our daily job.",
+            "Spread devops mentality in other teams.",
+            "Increast developper productivity by providing tooling and better feedback loop.",
+            "Kanban driven development."
+          ],
+          "stack": "Python, Groovy, Jenkins, GitHub, Docker, Kubernetes, Helm"
+        },
+        {
+          "title": "Software Architect (Senior Officer)",
+          "organization": "Swissquote Bank SA",
+          "location": "Gland, Switzerland",
+          "date": "July 2017 - December 2018",
           "descriptions": [
             "Architecture, migration and development of an existing system based on asynchronous messaging",
             "Expert member of the internal group to promote backend best practices and drive technology stack of the bank",
@@ -145,12 +155,12 @@
           "title": "Junior developer",
           "organization": "nodule.com (renamed to labonneagence.com)",
           "location": "Grenoble, France",
-          "date": "February 2011 - July 2012",
+          "date": "Avril 2008 - August 2008",
           "descriptions": [
             "Developing a web application",
             "Waterfall driven development"
           ],
-          "reference": "Didier Dumas"
+          "reference": "Emmanuel Bertrand"
         }
       ]
     },
@@ -194,7 +204,11 @@
             },
             {
               "text": "Python",
-              "level": 1
+              "level": 2
+            },
+            {
+              "text": "Groovy",
+              "level": 3
             },
             {
               "text": "SQL",
@@ -251,6 +265,10 @@
               "level": 2
             },
             {
+              "text": "Pytest",
+              "level": 2
+            },
+            {
               "text": ".NET",
               "level": 1
             }
@@ -266,11 +284,15 @@
             },
             {
               "text": "Jenkins",
-              "level": 3
+              "level": 4
             },
             {
               "text": "npm",
               "level": 3
+            },
+            {
+              "text": "tox",
+              "level": 2
             },
             {
               "text": "Maven",
@@ -288,7 +310,7 @@
             },
             {
               "text": "Kubernetes",
-              "level": 1
+              "level": 2
             },
             {
               "text": "GNU/Linux",
@@ -382,21 +404,16 @@
       "type": "basic",
       "items": [
         {
+          "title": "Family",
+          "organization": "Happy father and husband"
+        },
+        {
           "title": "Hackatons",
           "organization": "Winner of internal Swissquote annual contest 2017"
         },
         {
-          "title": "Blogger",
-          "organization": "\"Microservices can help you manage legacy code\" for Swissquote Engineering Blog",
-          "url": "https://medium.com/swissquote-engineering/https-medium-com-nargit-microservices-can-help-you-manage-legacy-code-20edf9bb80f8"
-        },
-        {
           "title": "Travelling",
-          "organization": "Took four months of unpaid leave with my wife to travel around the world"
-        },
-        {
-          "title": "Team based competitive games",
-          "organization": "Rocket League, CS:GO, Basketball"
+          "organization": "Took four months of unpaid leave with my wife to travel around the world."
         },
         {
           "title": "Books, Cinema and Boardgames",
